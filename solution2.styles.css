@@ -1,0 +1,139 @@
+body {
+  margin: 0px;
+}
+
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 10pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+
+  padding: 40px;
+}
+.section {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.section-content {
+  margin-bottom: 50px;
+}
+
+.name {
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e2452;
+  margin: 0px;
+}
+.info-basic {
+  display: inline-block;
+  font-weight: bold;
+  list-style-type: none;
+
+  padding: 0px;
+}
+.info {
+  margin-bottom: 20px;
+}
+.info-value {
+  display: inline-block;
+  list-style-type: none;
+}
+.info-detail {
+  margin-bottom: 20px;
+}
+.section {
+  position: relative;
+}
+.avatar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 113px;
+}
+img {
+  height: 113px;
+  width: 113px;
+}
+
+.section-title {
+  border-bottom: solid 1.5px grey;
+  text-transform: uppercase;
+}
+.row {
+  border-bottom: solid 1px rgb(207, 204, 204);
+}
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.time {
+  margin-top: 0;
+  width: 150px;
+  /* vertical-align: top; */
+}
+.edu {
+  vertical-align: top;
+}
+h4 {
+  font-weight: bold;
+  vertical-align: top;
+  /* margin-top: 0; */
+}
+
+.time-skill {
+  margin-top: 0;
+  width: 150px;
+  font-weight: bold;
+}
+/* .edu-skill p:first-child {
+  font-weight: bold;
+} */
+
+.like {
+  margin: 0px;
+  padding-left: 13px;
+}
+.contact {
+  margin: 0px;
+  padding-left: 13px;
+}
+a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}
+li {
+  margin-bottom: 10px;
+}
+h3 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+h5 {
+  margin-top: 5px;
+  font-weight: normal;
+}
